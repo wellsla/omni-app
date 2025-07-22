@@ -1,0 +1,30 @@
+
+'use server';
+import { config } from 'dotenv';
+config();
+
+import '@/ai/flows/generate-mock-data.ts';
+import '@/ai/flows/translate-document.ts';
+import '@/ai/flows/translate-text.ts';
+import '@/ai/flows/extract-colors-from-image.ts';
+import '@/ai/flows/extract-text-from-image.ts';
+import '@/ai/flows/extract-text-from-pdf.ts';
+import '@/ai/flows/generate-sql-inserts.ts';
+import '@/ai/flows/generate-sql-updates.ts';
+import '@/ai/flows/remove-image-background.ts';
+import '@/ai/flows/compress-image.ts';
+import '@/ai/flows/format-code.ts';
+import '@/ai/flows/vectorize-image.ts';
+import '@/ai/flows/create-3d-object-from-images.ts';
+import '@/ai/flows/convert-code-language.ts';
+import '@/ai/flows/generate-color-scheme.ts';
+import '@/ai/flows/shorten-url.ts';
+import '@/ai/flows/analyze-seo.ts';
+import '@/ai/flows/check-browser-compatibility.ts';
+import '@/ai/flows/run-lighthouse-audit.ts';
+import '@/ai/flows/find-font-pairings.ts';
+import '@/ai/flows/generate-lorem-ipsum.ts';
+import '@/ai/flows/dns-lookup.ts';
+import '@/ai/flows/minify-code.ts';
+import '@/ai/flows/check-website-trust.ts';
+import '@/ai/flows/analyze-accessibility.ts';
